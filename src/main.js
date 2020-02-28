@@ -1,7 +1,7 @@
 class App {
     run() {
         const name = 'World';
-        console.log(`Hello`)
+        console.log(`Hello ${name}`)
     }
 }
 
