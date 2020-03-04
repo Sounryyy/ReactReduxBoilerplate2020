@@ -1,10 +1,6 @@
-class App {
-    run() {
-        const name = 'World';
-        console.log(`Hello ${name}`)
-    }
-}
+import React from 'react';
+import ReactDOM from 'react-dom'
 
-const app = new App();
+const App = () => <p>Hello</p>;
 
-app.run();
+ReactDOM.render(<App />, document.getElementById('root'));
