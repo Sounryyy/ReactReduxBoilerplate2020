@@ -1,3 +1,4 @@
+const HtmlWebPlugin = require('html-webpack-plugin');
 
 module.exports = {
     mode: "development",
@@ -46,5 +47,11 @@ module.exports = {
                 ]
             }
         ]
-    }
+    },
+
+    plugins: [
+        new HtmlWebPlugin({
+            template: 'public/index.html'
+        })
+    ]
 };
