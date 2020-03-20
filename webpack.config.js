@@ -55,5 +55,9 @@ module.exports = {
             template: 'public/index.html'
         }),
         new MiniCssExtractPlugin()
-    ]
+    ],
+
+    devServer: {
+        open: true
+    }
 };
