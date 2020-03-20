@@ -80,7 +80,10 @@ module.exports = (env = { mode: 'development' } ) => {
         plugins: getPlugins(),
 
         devServer: {
-            open: true
+            open: true,
+            port: 9000,
+            compress: true,
+            historyApiFallback: true,
         }
     }
 };
